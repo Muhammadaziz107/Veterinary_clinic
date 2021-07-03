@@ -2,7 +2,6 @@
   display: block;
   display: flex;
   align-items: center;
-  padding: 10px 0;
   margin-left: auto;
 }
 
@@ -122,7 +121,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 456px) {
+@media only screen and (max-width: 470px) {
   .header-top__phone {
     display: flex;
     flex-direction: column;
@@ -241,7 +240,7 @@ p {
   background-image: url(../images/pet.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  margin-right: 5px;
+  // margin-right: 5px;
 }
 
 .hamburger-btn {
@@ -249,6 +248,7 @@ p {
   background-color: transparent;
   border: none;
   cursor: pointer;
+  padding: 15px 15px;
 }
 
 @media only screen and (max-width: 1220px) {
@@ -264,7 +264,15 @@ p {
 }
 
 @media only screen and (max-width: 1056px) {
+  .header-top {
+    margin-bottom: 20px;
+  }
+
   .header-bottom__nav-bar {
+    display: none;
+  }
+
+  .header-bottom__button {
     display: none;
   }
 
@@ -277,6 +285,54 @@ p {
   }
 
   .header .header-bottom {
-    order: 1;
+    order: -111;
+  }
+
+  .header-bottom__logo-img {
+    position: absolute;
+    transform: translate(-100%, -50%);
+    margin-left: 90px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .header-bottom {
+    padding: 0 25px;
+  }
+
+  .header-bottom__logo-img {
+    position: absolute;
+    transform: translate(-100%, -50%);
+    width: 150px;
+    height: 75px;
+    margin: 0 auto;
+    margin-left: 70px;
+    margin-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .header-bottom {
+    padding: 0 10px;
+  }
+
+  .header-bottom__logo-img {
+    position: absolute;
+
+    width: 130px;
+    height: 62px;
+    margin: 0 auto;
+    margin-left: 30px;
+    margin-right: 10px;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .header-bottom__logo-img {
+    width: 115px;
+    height: 57px;
+    margin: 0 10px;
+    margin-left: -1px;
   }
 }
