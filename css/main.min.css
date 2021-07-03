@@ -820,4 +820,13 @@ p {
   margin: 0 auto;
   margin-top: 35px;
   margin-bottom: 35px; }
+
+.home-section-one__paragraph {
+  display: block;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #333333;
+  text-align: center;
+  margin: 0 auto; }
 /*# sourceMappingURL=main.min.css.map */
