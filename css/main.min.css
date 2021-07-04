@@ -391,7 +391,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: auto; }
+  margin-left: 210px; }
 
 .header-top__phone {
   display: -webkit-box;
@@ -856,4 +856,11 @@ p {
     display: none; }
   .home-section-one__text::after {
     display: none; } }
+
+.home-secvices__heading {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 54px;
+  text-align: center;
+  color: #333333; }
 /*# sourceMappingURL=main.min.css.map */
