@@ -88,6 +88,9 @@
 }
 
 @media only screen and (max-width: 500px) {
+  .home-intro .container {
+    padding: 30px 20px;
+  }
   .site-heading {
     font-size: 46px;
   }
@@ -95,7 +98,8 @@
 
 @media only screen and (max-width: 426px) {
   .home-intro .container {
-    padding: 80px 20px;
+    padding: 30px 20px;
+    padding-top: 60px;
   }
 
   .site-heading {
