@@ -386,7 +386,8 @@ template {
   display: none; }
 
 .header {
-  background-color: #f9f8f8; }
+  background-color: #f9f8f8;
+  margin-bottom: 89px; }
 
 .header-top {
   display: block;
