@@ -2,6 +2,7 @@
   display: flex;
 }
 .contact-intro__box {
+  width: 100%;
   min-width: 800px;
   z-index: 10;
 }
@@ -13,7 +14,6 @@
 }
 
 .contact-intro__box__text {
-  width: 100%;
   max-width: 455px;
   font-size: 16px;
   line-height: 20px;
@@ -84,4 +84,25 @@
   background-image: url(../images/contact-intro-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media only screen and (max-width: 850px) {
+  .contact-intro__box {
+    width: 100%;
+    min-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .contact-intro__box__ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-intro__bg-wrapper {
+    display: none;
+  }
 }

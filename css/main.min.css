@@ -522,7 +522,7 @@ p {
     margin: 0 auto; } }
 
 @media only screen and (max-width: 355px) {
-  p {
+  .header p {
     font-size: 16px;
     margin: 7px 0; }
   .header-top__calendar {
@@ -1145,6 +1145,7 @@ p {
   display: flex; }
 
 .contact-intro__box {
+  width: 100%;
   min-width: 800px;
   z-index: 10; }
 
@@ -1155,7 +1156,6 @@ p {
   color: #333333; }
 
 .contact-intro__box__text {
-  width: 100%;
   max-width: 455px;
   font-size: 16px;
   line-height: 20px;
@@ -1228,4 +1228,24 @@ p {
   background-image: url(../images/contact-intro-bg.png);
   background-repeat: no-repeat;
   background-size: cover; }
+
+@media only screen and (max-width: 850px) {
+  .contact-intro__box {
+    width: 100%;
+    min-width: 700px;
+    margin: 0 auto;
+    text-align: center; }
+  .contact-intro__box__ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
+
+@media only screen and (max-width: 768px) {
+  .contact-intro__bg-wrapper {
+    display: none; } }
 /*# sourceMappingURL=main.min.css.map */
