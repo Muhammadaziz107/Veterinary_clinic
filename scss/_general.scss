@@ -30,10 +30,6 @@ body {
   font-family: "Futura PT";
   font-size: 16px;
   line-height: 1.5;
-  background-image: url(../images/bg.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: #f9f8f8;
 }
 
 img {
@@ -46,4 +42,11 @@ img {
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.main {
+  background-image: url(../images/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #f9f8f8;
 }
