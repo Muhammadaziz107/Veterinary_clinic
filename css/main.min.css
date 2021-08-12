@@ -1458,6 +1458,14 @@ p {
     margin-bottom: 20px;
     margin-left: 60px; } }
 
+.home-articles {
+  margin-bottom: 200px; }
+
+.home-articles__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
 .home-articles__heading {
   font-weight: bold;
   font-size: 48px;
@@ -1502,5 +1510,79 @@ p {
 .home-articles__div2 {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  width: 640px;
+  height: 435px;
+  background-color: #ffffff;
+  border: 1px solid #f3f3f3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 24px;
+  margin-right: 24px; }
+
+.home-div2__wrapper {
+  padding: 30px; }
+
+.home-div2__wrapper__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 40px; }
+
+.home-div2__wrapper__list__item:nth-child(1) {
+  color: #3d9cea;
+  margin-left: 9px; }
+
+.home-div2__wrapper__list__item:nth-child(2) {
+  color: #3d9cea;
+  margin-left: 9px; }
+
+.home-div2__wrapper__list__item:nth-child(3) {
+  color: #3d9cea;
+  margin-left: 9px; }
+
+.home-div2__wrapper__list__item:nth-child(4) {
+  margin-left: auto; }
+
+@media only screen and (max-width: 1290px) {
+  .home-articles__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .home-articles__div2 {
+    margin-bottom: 40px;
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1; }
+  .home-articles__div1 {
+    margin: 12px; } }
+
+@media only screen and (max-width: 650px) {
+  .home-articles__div2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    padding-top: 20px; } }
+
+@media only screen and (max-width: 475px) {
+  .home-artciles__div2__img {
+    width: 250px;
+    height: 390px; } }
 /*# sourceMappingURL=main.min.css.map */
