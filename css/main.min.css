@@ -1459,6 +1459,7 @@ p {
     margin-left: 60px; } }
 
 .home-articles {
+  margin: 0 auto;
   margin-bottom: 200px; }
 
 .home-articles__wrapper {
@@ -1585,4 +1586,67 @@ p {
   .home-artciles__div2__img {
     width: 250px;
     height: 390px; } }
+
+.home-feedback {
+  background-image: url(../images/home-feedback.jpg);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center; }
+
+.home-feedback__form__heading {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 62px;
+  color: #ffffff; }
+
+.home-feedback__form__text {
+  width: 334px;
+  font-size: 16px;
+  line-height: 20px;
+  font-style: normal;
+  font-weight: normal;
+  color: #949494; }
+
+.home-feedback__form__input {
+  width: 375px;
+  height: 50px;
+  outline: none;
+  background: #ffffff;
+  border: none;
+  padding-left: 22px;
+  font-size: 22px; }
+
+.home-feedback__form__input::-webkit-input-placeholder {
+  font-size: 16px; }
+
+.home-feedback__form__input:-ms-input-placeholder {
+  font-size: 16px; }
+
+.home-feedback__form__input::-ms-input-placeholder {
+  font-size: 16px; }
+
+.home-feedback__form__input::placeholder {
+  font-size: 16px; }
+
+.home-feedback__form__textarea {
+  width: 375px;
+  height: 165px;
+  padding-left: 12px;
+  padding-top: 12px;
+  font-size: 20px;
+  outline: none; }
+
+.home-feedback__form__link {
+  display: inline-block;
+  padding: 15px 50px;
+  background-color: #ffbd54;
+  text-decoration: none;
+  color: #ffffff; }
+
+.home-feedback__form__link:hover {
+  background-color: #333333; }
+
+.home-feedback__form__link:active {
+  opacity: 0.8; }
 /*# sourceMappingURL=main.min.css.map */
