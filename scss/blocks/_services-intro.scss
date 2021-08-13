@@ -1,0 +1,31 @@
+.services-intor__wrapper {
+  position: relative;
+}
+
+.services-intor__wrapper::after {
+  position: absolute;
+  right: 0;
+  display: block;
+  content: "";
+  width: 460px;
+  height: 435px;
+  background-image: url(../images/services-intro.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: translateY(-50%);
+}
+
+.services-intro__heading {
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+}
+.services-intro__text {
+  width: 100%;
+  max-width: 450px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
