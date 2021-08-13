@@ -29,3 +29,18 @@
   line-height: 20px;
   color: #949494;
 }
+
+@media only screen and (max-width: 930px) {
+  .services-intor__wrapper::after {
+    display: none;
+  }
+
+  .services-intor__wrapper {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .services-intro__text {
+    margin: 0 auto;
+  }
+}
